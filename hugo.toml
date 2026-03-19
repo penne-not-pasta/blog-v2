@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Sages Blog'
+defaultContentLanguage = 'en'
+theme = 'zen'
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  author = 'author'
+[languages]
+  [languages.en-US]
+    contentDir = 'content/english'
+    label = 'English'
+    weight = 10
+    timeZone = 'America/New_York'
+    disabled = false
+  [languages.zh]
+    contentDir = 'content/zh'
+    label = '中文'
+    weight = 20
+    disabled = false
