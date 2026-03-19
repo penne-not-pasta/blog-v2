@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://penne.blog/'
 languageCode = 'en-us'
 title = 'Sages Blog'
 defaultContentLanguage = 'en'
