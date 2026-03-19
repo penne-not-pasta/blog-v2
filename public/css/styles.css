@@ -106,7 +106,9 @@
   --color-brand-dark: green;
 }
 */
-/* Font faces
+
+.language-switcher ul { list-style: none; display: flex; gap: 10px; }
+.language-switcher a.active { font-weight: bold; text-decoration: underline; }/* Font faces
 
 Instead of relying on the fonts that are available on a user's computer, you
 can use web fonts which, like images, are resources downloaded to the user's

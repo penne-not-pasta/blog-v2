@@ -1,5 +1,5 @@
 +++
-date = '{{ .Date | time.Format ":date_full" }}'
+date = 2026-03-19
 draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 tags = []

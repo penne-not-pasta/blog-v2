@@ -1,7 +1,11 @@
-<ul>
-  {{ range .AllTranslations }}
-    <li>
-      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-    </li>
-  {{ end }}
-</ul>
+<nav class="language-switcher">
+  <ul>
+    {{ range .AllTranslations }}
+      <li>
+        <a href="{{ .Permalink }}" class="{{ if eq .Language.Lang $.Language.Lang }}active{{ end }}">
+          {{ .Language.LanguageName }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>
