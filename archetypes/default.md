@@ -8,4 +8,5 @@ tags = []
 [sites]
     [sites.matrix]
         languages = ['en', 'zh']
+translationKey = '{{ .File.ContentBaseName }}'
 +++

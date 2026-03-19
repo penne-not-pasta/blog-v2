@@ -3,19 +3,23 @@ languageCode = 'en-us'
 title = 'Sages Blog'
 defaultContentLanguage = 'en'
 theme = 'zen'
+
+defaultContentLanguageInSubdir = true
+
 [taxonomies]
   category = 'categories'
   tag = 'tags'
   author = 'author'
+
 [languages]
-  [languages.en-US]
-    contentDir = 'content/english'
-    label = 'English'
+  [languages.en]
+    contentDir = 'content/en-US'
+    languageName = 'English'
     weight = 10
-    timeZone = 'America/New_York'
     disabled = false
+
   [languages.zh]
     contentDir = 'content/zh'
-    label = '中文'
+    languageName = '中文'
     weight = 20
     disabled = false

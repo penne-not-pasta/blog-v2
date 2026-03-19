@@ -1,0 +1,12 @@
+[home]
+other = "首页"
+
+[readingTime]
+one = "阅读时间一分钟"
+other = "阅读时间 {{ .Count }} 分钟"
+
+[postDate]
+other = "发布于"
+
+[backToTop]
+other = "回到顶部"

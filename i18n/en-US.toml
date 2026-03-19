@@ -1,0 +1,12 @@
+[home]
+other = "Home"
+
+[readingTime]
+one = "One minute read"
+other = "{{ .Count }} minutes read"
+
+[postDate]
+other = "Posted on"
+
+[backToTop]
+other = "Back to Top"
